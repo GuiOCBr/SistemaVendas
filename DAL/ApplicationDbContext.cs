@@ -41,3 +41,6 @@ namespace SistemaVenda.DAL
         }
     }
 }
+
+
+// classe que conversa com EFCore e traz o espelho com banco de dados 
