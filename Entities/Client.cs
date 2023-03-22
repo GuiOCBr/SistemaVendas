@@ -7,7 +7,7 @@ namespace SistemaVenda.Entities
         [Key]
         public int? Code { get; set; }
 
-        public string Name { get; set}
+        public string Name { get; set; }
 
         public string CNPJ_CPF { get; set; }
 
@@ -16,9 +16,6 @@ namespace SistemaVenda.Entities
         public string Phone { get; set; }
 
         public ICollection<Sale> Sales { get; set; }
-
-
-
 
     }
 }
