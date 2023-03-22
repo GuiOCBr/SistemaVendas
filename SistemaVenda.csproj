@@ -8,11 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Helpers\" />
-    <Folder Include="Views\Client\" />
     <Folder Include="Views\Report\" />
-    <Folder Include="Views\Settings\" />
-    <Folder Include="Views\Sale\" />
-    <Folder Include="Views\Product\" />
   </ItemGroup>
 
   <ItemGroup>
