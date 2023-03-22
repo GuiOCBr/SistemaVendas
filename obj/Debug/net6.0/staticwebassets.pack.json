@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\categories.png",
+      "PackagePath": "staticwebassets\\images\\categories.png"
+    },
+    {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\customers.png",
+      "PackagePath": "staticwebassets\\images\\customers.png"
+    },
+    {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\products.png",
+      "PackagePath": "staticwebassets\\images\\products.png"
+    },
+    {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\reports.png",
+      "PackagePath": "staticwebassets\\images\\reports.png"
+    },
+    {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\sales.png",
+      "PackagePath": "staticwebassets\\images\\sales.png"
+    },
+    {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\sellers.png",
+      "PackagePath": "staticwebassets\\images\\sellers.png"
+    },
+    {
+      "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\images\\settings.png",
+      "PackagePath": "staticwebassets\\images\\settings.png"
+    },
+    {
       "Id": "D:\\ProjetosGitHub\\SistemaVenda\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
