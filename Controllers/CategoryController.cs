@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SistemaVenda.DAL;
 using SistemaVenda.Entities;
+using SistemaVenda.Models;
 
 namespace SistemaVenda.Controllers
 {
@@ -17,6 +18,14 @@ namespace SistemaVenda.Controllers
             List<Category> categoryList = appContext.Category.ToList();
             appContext.Dispose();
             return View(categoryList);
+        }
+
+        [HttpGet]
+        public IActionResult Register(int? id) // revisar depois de onde está vindo esse parametro , acho que esse parametro serve para pegar a PK da classe categoryVIewModel
+        {
+            CategoryViewModel categoryViewModel = new CategoryViewModel();
+          
+            return View(categoryViewModel);
         }
     }
 }

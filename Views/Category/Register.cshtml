@@ -1,5 +1,6 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model SistemaVenda.Models.CategoryViewModel
+
+<form asp-controller="Category" asp-action="Register" method="post">
+    <input type="hidden" asp-for="Code" value="@Model.Code"/>
+    <input type="text" asp-for="Description" value="@Model.Description" class="form-control" />
+</form>
