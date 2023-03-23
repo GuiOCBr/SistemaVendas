@@ -17,12 +17,14 @@ namespace SistemaVenda.Controllers
             _logger = logger;
         }*/
 
-        protected ApplicationDbContext Repository;
+       /* protected ApplicationDbContext Repository;
         public HomeController(ApplicationDbContext repository)
         {
 
             Repository = repository;
         }
+
+        */
         public IActionResult Index()
         {
            
