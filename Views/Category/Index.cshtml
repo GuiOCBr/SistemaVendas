@@ -5,7 +5,7 @@
 
 <table class="table table-bordered">
     <thead>
-        <tr style="background-color:aqua;">
+        <tr>
             <th>Código</th>
             <th>Descrição</th>
         </tr>
@@ -16,6 +16,12 @@
                 <tr>
                     <td>@item.Code</td>
                     <td>@item.Description</td>
+                    <td>
+                        <div>
+                        <a role="button" class="btn btn-outline-success" asp-controller="Category">Editar</a>
+                         <a role="button" class="btn btn-outline-danger"  asp-controller="Category">Apagar</a>
+                        </div>
+                    </td>
                 </tr>
             }
     </tbody>

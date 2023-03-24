@@ -22,8 +22,8 @@ namespace SistemaVenda.Controllers
         }
 
         [HttpGet]
-        public IActionResult Register(int? id) // revisar depois de onde está vindo esse parametro , acho que esse parametro serve para pegar a PK da classe categoryVIewModel
-        {
+        public IActionResult Register(int? id)  // PEGANDO AS CATEGORIAS LISTADAS 
+        { 
             CategoryViewModel categoryViewModel = new CategoryViewModel();
           
             if (id != null)

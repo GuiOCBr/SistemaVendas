@@ -6,7 +6,7 @@ namespace SistemaVenda.Models
     {
         public int? Code { get; set; }
 
-        [Required(ErrorMessage="Informe a descrição da categoria")]
+        [Required(ErrorMessage="Informe a descrição da categoria!")]
         public string Description { get; set; }
     }
 }

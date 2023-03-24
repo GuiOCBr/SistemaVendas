@@ -5,32 +5,15 @@
     <div>
         <div class="col-4">
             <label>Descrição</label>
-            <input type="text" asp-for="Description" value="@Model.Description" class="form-control" />
+            <input type="text"  asp-for="Description" value="@Model.Description" class="form-control" />
+            <span asp-validation-for="Description" class="text-danger"></span>
         </div>
         <br />
         <div class="col">
-            <button type="button" class="btn btn-outline-primary" onclick="Novo()">Novo</button>
             <button type="submit" class="btn btn-outline-success">Gravar</button>
-            <button type="button" class="btn btn-outline-danger" onclick="Excluir(@Model.Code)">Excluir</button>
             <a type="button"  class=" btn btn-outline-warning" asp-area="" asp-controller="Category" asp-action="Index">Voltar</a>
         </div>
     </div>  
 </form>
 
-<script>
-    function Novo(){
-        Request("Cadastro");
-    }
-
-   
-    function Excluir(){
-        Request("Excluir\\" + Code);
-    }
-
-    function Request(request){
-        window.location = window.origin + "\\Categoria" + request;
-    }
-
-// revisar
-</script>
 
