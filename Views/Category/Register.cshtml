@@ -2,5 +2,18 @@
 
 <form asp-controller="Category" asp-action="Register" method="post">
     <input type="hidden" asp-for="Code" value="@Model.Code"/>
-    <input type="text" asp-for="Description" value="@Model.Description" class="form-control" />
+    <div>
+        <div class="col-4">
+            <label>Descrição</label>
+            <input type="text" asp-for="Description" value="@Model.Description" class="form-control" />
+        </div>
+        <br />
+        <div class="col">
+            <button type="button" class="btn btn-outline-primary">Novo</button>
+            <button type="submit" class="btn btn-outline-success">Gravar</button>
+            <button type="button" class="btn btn-outline-danger">Excluir</button>
+            <a type="button"  class=" btn btn-outline-warning" asp-area="" asp-controller="Category" asp-action="Index">Voltar</a>
+        </div>
+    </div>
+    
 </form>
